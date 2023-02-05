@@ -15,7 +15,7 @@ html{
 --items: 3;
 }
 
-.section1, .section2, .team{
+.section1, .section2, .team, .customers{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -146,6 +146,7 @@ gap: 40px;
 .hero-section {
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: url(../images/background/hero-image.png);
     
 }
 
@@ -267,7 +268,6 @@ line-height: 1.11;
     width: 264px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    width: 264px;
 }
 
 
@@ -282,6 +282,19 @@ line-height: 1.11;
     margin-bottom: 8px;
 }
 .team-subtext {
+}
+
+.customer-text {
+    text-align: center;
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.customer-list{
+    display: flex;
+    gap: 24px;
 }
 .filters {
     display: flex;
