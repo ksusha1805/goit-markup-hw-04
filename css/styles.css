@@ -146,8 +146,11 @@ gap: 40px;
 .hero-section {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: url(../images/background/hero-image.png);
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+     url(../images/background/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
 }
 
 .hero-text {
@@ -231,6 +234,8 @@ text-transform: capitalize;
 color: #2E2F42;
 padding-top: 0px;
 }
+
+
 .portfolio-text {
     text-align: center;
     font-weight: 700;
@@ -282,8 +287,34 @@ line-height: 1.11;
     margin-bottom: 8px;
 }
 .team-subtext {
+    margin-bottom: 8px;
 }
 
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.socials-icon{
+    fill: #F4F4FD;
+}
+
+
+.socials-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.socials-link:hover{
+    background-color:  #404BBF;
+}
 .customer-text {
     text-align: center;
     font-weight: 700;
@@ -400,12 +431,13 @@ padding-left: 8px;
 .footer {
 left: 0px;
 top: 2280px;
-    background: #2E2F42;
+background: #2E2F42;
 padding: 100px 0px;
         }
 
 .footer-div{
     width: 264px;
+    margin-right: 120px;
 }
     
 .footer-nav {
@@ -419,12 +451,12 @@ padding: 100px 0px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-        }
+}
     
         .web-footer {
             color: #4D5AE5;
-            
-        }
+            }
+
         .footer-text {
             font-family: 'Roboto';
     font-style: normal;
@@ -435,4 +467,25 @@ padding: 100px 0px;
     color: #E7E9FC;
     margin-top: 16px;
         }
+
+.footer-container{
+    display: flex;
+}
+
+.footer-social{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.footer-list{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icon{
+    background: #F4F4FD;
+}
 
