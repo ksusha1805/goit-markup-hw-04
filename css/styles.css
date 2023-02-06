@@ -203,6 +203,13 @@ border-radius: 4px;
 .section1 {
 }
 
+.section1-icon{
+    width: 264px;
+height: 112px;
+background: #F4F4FD;
+border-radius: 4px; 
+}
+
 .section1-list {
     display: flex;
     gap: 24px;
@@ -323,9 +330,21 @@ line-height: 1.11;
     margin-bottom: 72px;
 }
 
-.customer-list{
+.customers-list{
     display: flex;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.customers-item{
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    
+}
+.customers-icon{
+    fill: #8E8F99;
 }
 .filters {
     display: flex;
@@ -477,7 +496,15 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+}
+
+.social-text{
+    margin-bottom: 16px;
+    color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-list{
@@ -485,7 +512,21 @@ color: #FFFFFF;
     gap: 16px;
 }
 
+.footer-item{
+}
+
 .footer-icon{
-    background: #F4F4FD;
+    fill: #FFFFFF;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #FFFFFF;
 }
 
