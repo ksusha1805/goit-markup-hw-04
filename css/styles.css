@@ -15,7 +15,7 @@ html{
 --items: 3;
 }
 
-.section1, .section2, .team, .customers{
+.advantage, .section2, .team, .customers{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -144,6 +144,7 @@ gap: 40px;
 .main {
 }
 .hero-section {
+    max-width: 1440px;
     background-color: #2E2F42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -200,17 +201,18 @@ border-radius: 4px;
 }
 
 
-.section1 {
+.advantage {
 }
 
-.section1-icon{
+.advantage-icon{
     width: 264px;
 height: 112px;
 background: #F4F4FD;
 border-radius: 4px; 
+margin-bottom: 8px;
 }
 
-.section1-list {
+.advantage-list {
     display: flex;
     gap: 24px;
 }
@@ -341,7 +343,11 @@ line-height: 1.11;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    
+    padding: 16px 32px;
+}
+
+.customers-icon:hover, .customers-icon:focus{
+    fill: #404BBF;
 }
 .customers-icon{
     fill: #8E8F99;
@@ -410,7 +416,6 @@ height: 420px;
 
 
 .row-ref{
-    color: #2E2F42;
     --indent: 30px;
     --items: 3;
 }
@@ -430,8 +435,7 @@ padding-left: 16px;
 }
 
 .row-text {
-    padding-bottom: 16px;
-    padding-left: 8px;
+    color: #2E2F42;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -442,7 +446,6 @@ letter-spacing: 0.02em;
 .row-subtext {
 font-weight: 400;
 color: #434455;
-padding-left: 8px;
 }
 
 
