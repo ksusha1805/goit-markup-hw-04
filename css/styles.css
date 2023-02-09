@@ -20,7 +20,7 @@ html{
     padding-bottom: 120px;
 }
 .container{
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -30,7 +30,6 @@ html{
 .body{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
-    width: 1440px;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul{
@@ -152,6 +151,7 @@ gap: 40px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -202,14 +202,20 @@ border-radius: 4px;
 
 
 .advantage {
+    width: 264px;
 }
 
 .advantage-icon{
     width: 264px;
-height: 112px;
 background: #F4F4FD;
 border-radius: 4px; 
 margin-bottom: 8px;
+display: block;
+}
+
+.advantage-svg{
+    display: block;
+    padding: 24px 100px;
 }
 
 .advantage-list {
@@ -321,7 +327,7 @@ line-height: 1.11;
     border-radius: 50%;
 }
 
-.socials-link:hover{
+.socials-link:hover, .socials-link:focus{
     background-color:  #404BBF;
 }
 .customer-text {
@@ -330,6 +336,21 @@ line-height: 1.11;
 font-size: 36px;
 line-height: 1.11;
     margin-bottom: 72px;
+}
+
+.customer-link{
+    cursor: pointer;
+}
+
+.customer-item:hover, .customer-link:focus{
+
+}
+
+.customer-svg{
+}
+
+.customer-svg:hover, .customer-svg:focus{
+ 
 }
 
 .customers-list{
@@ -346,11 +367,11 @@ line-height: 1.11;
     padding: 16px 32px;
 }
 
-.customers-icon:hover, .customers-icon:focus{
+.customer-link:hover, .customer-link:focus{
     fill: #404BBF;
 }
 .customers-icon{
-    fill: #8E8F99;
+   fill:#8E8F99;
 }
 .filters {
     display: flex;
@@ -440,7 +461,7 @@ padding-left: 16px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-
+padding-bottom: 8px;
 }
 
 .row-subtext {
@@ -533,3 +554,6 @@ letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
+.footer-link:hover, .footer-link:focus{
+    background: #31D0AA;
+}
