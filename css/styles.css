@@ -402,6 +402,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: var(--cloud);
+border-radius: 4px;
 }
 
 .filter-btn {
@@ -440,28 +441,28 @@ gap: 48px 24px;
 letter-spacing: 0.02em;
 width: 360px;
 height: 420px;
-border-top: none;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .row-ref{
+display: block;
 --indent: 30px;
 --items: 3;
-border-top: none;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.row-items:hover, .row-items:focus{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.row-ref:hover, .row-ref:focus{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .row-img{
-    width: 360px;
+width: 360px;
 }
 
 .row-text-div{
 padding-top: 32px;
 padding-bottom: 32px;
 padding-left: 16px;
+border-top: none;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .row-text {
